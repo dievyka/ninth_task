@@ -11,6 +11,6 @@ public class StudentWithClock implements Learner {
     public void learn(){
         learner.learn();
         Calendar currentTime = Calendar.getInstance();
-        System.out.println(currentTime.get(Calendar.HOUR_OF_DAY) + ":" + currentTime.get(Calendar.MINUTE) + ":" + currentTime.get(Calendar.SECOND));
+        System.out.println("Текущее время: " + currentTime.get(Calendar.HOUR_OF_DAY) + ":" + currentTime.get(Calendar.MINUTE) + ":" + currentTime.get(Calendar.SECOND));
     }
 }
